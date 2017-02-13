@@ -22,7 +22,7 @@ public class LambdaAdobeSignPoc {
         final LambdaLogger logger = context.getLogger();
         final OAuthApi oAuthApi = new OAuthApi();
 
-        final ArrayList<Scope> myScopes = new ArrayList() {{
+        final ArrayList myScopes = new ArrayList() {{
             //Provide the scope type and modifier
             add(new Scope(SCOPE_TARGET, SCOPE_MODIFIER));
         }};
